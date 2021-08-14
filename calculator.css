@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding:0;
+}
+.front{
+    background:skyblue;
+    width: 100%;
+    height:720px;
+    text-align: center;
+    line-height: 200px;
+    
+}
+.inner_front{
+    background-color:lightskyblue;
+    margin: auto;
+width: 20%;
+border: 5px solid #bbbba2;
+padding: 100px;
+padding-top: -200px;
+line-height: 50px;    
+}
+.content_button{
+    padding: 0.5rem 2rem 0.5rem ;
+    background-color: whitesmoke;
+    border:none;
+    outline:none;
+    transition: 1s all;
+    
+}
+.content_button:hover{
+    background-color: black;
+    color:whitesmoke;
+    cursor: pointer;
+ }
