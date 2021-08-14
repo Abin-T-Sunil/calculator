@@ -1,4 +1,3 @@
-#Armstrong Number
 num=int(input("Enter a number: "))
 while True:
   print("\n1.Prime or not")
@@ -21,19 +20,18 @@ while True:
           print(num,"is a prime number")
   
   elif choice==2:
-    
-    sum=0
-    temp=num
-    n=len(str(num))
-    while temp>0:
-      digit=temp%10
-      sum+=digit**3
-      temp//=10
+      sum=0
+      temp=num
+      n=len(str(num))
+      while temp>0:
+        digit=temp%10
+        sum+=digit**3
+        temp//=10
 
-    if sum == num:
-      print(num,"is Armstrong number")
-    else:
-      print(num,"is not Armstrong number")
+      if sum == num:
+        print(num,"is Armstrong number")
+      else:
+        print(num,"is not Armstrong number")
 
   elif choice==3:
 
